@@ -1,5 +1,6 @@
 import sys
 import sqlite3
+import ebooklib
 from PyQt6 import uic
 from PyQt6.QtWidgets import QApplication, QMainWindow, QTableWidgetItem
 
