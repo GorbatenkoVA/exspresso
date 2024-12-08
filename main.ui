@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>826</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>831</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>829</width>
+       <height>399</height>
+      </rect>
+     </property>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>821</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string/>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Сорт</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Степень обжарки</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Молотый/В зёрнах</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Описание вкуса</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Цена</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Обьем упаковки</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>826</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
